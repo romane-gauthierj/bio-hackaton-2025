@@ -1,7 +1,7 @@
 # Preparation Milan Biohackaton 
 
 ## Setup
-### Singularity
+### Install Singularity
 #### Linux
 Follow along this [tutorial](https://pawseysc.github.io/singularity-containers/44-setup-singularity/index.html)
 #### MacOS
@@ -122,3 +122,12 @@ Install Singularity ([Source Guide](https://docs.sylabs.io/guides/3.0/user-guide
 	singularity --version
 	singularity buildcfg
 	```
+
+#### Run Singularity
+By default, Singularity has access to files under the `home/` directory.
+
+Run a Singularity image - exec
+```sh
+singularity exec my_cont.sif python3 hello_world.py
+```
+It allows to run a local script using the container (i.e. all tge software, libraries, dependencies installed within the container) and it redirects the result to the host machine.
