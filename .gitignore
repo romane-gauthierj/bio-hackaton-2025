@@ -5,6 +5,8 @@
 
 # Data
 data
+.RData
+*.rds
 
 # Results
 */**/images/*
