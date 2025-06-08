@@ -1,2 +1,17 @@
+# Local environment
+.vscode
 .DS_Store
+.ipynb_checkpoints
+
+# Data
 data
+
+# Results
+*/**/images/*
+
+# R
+.Rhistory
+.RDataTmp
+
+# Logs
+typescript
