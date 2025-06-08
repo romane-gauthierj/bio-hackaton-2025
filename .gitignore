@@ -1,2 +1,6 @@
+.vscode
 .DS_Store
 data
+.ipynb_checkpoints
+typescript
+*/**/images/*
